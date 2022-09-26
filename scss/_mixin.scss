@@ -1,0 +1,27 @@
+@mixin texto($texto-size,$font,$texto-color){
+    font-size: $texto-size;
+    font-family: $font;
+    color: $texto-color;
+}
+
+@mixin titulos($titulo-size,$font,$titulo-color) {
+   font-size: $titulo-size;
+   font-family: $font;
+   color: $titulo-color;
+}
+
+@mixin subtitulos($font,$subtitulo-size,$subtitulo-color){
+    font-family: $font;
+    font-size: $subtitulo-size;
+    color: $subtitulo-color;
+}
+
+@mixin navbar($font,$navbar-color,$navbar-size) {
+    font-size: $navbar-size;
+    font-family: $font;
+    color: $navbar-color;
+}
+
+@mixin caja {
+        background-color: $caja-color;
+} 

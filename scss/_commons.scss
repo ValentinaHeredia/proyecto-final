@@ -1,0 +1,54 @@
+//colores//
+$titulo-color: #e51db6;
+$subtitulo-color: #ec8dff;
+$texto-color: #ec8dff;
+
+$caja-color: #560770;
+$borde-color: #7a0f9e;
+
+$navbar-color: #560770;
+
+//fonts//
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+$font:'Montserrat', sans-serif;
+
+$titulo-size: 2.5rem;
+$subtitulo-size: 1.70rem;
+$texto-size:  1.25rem;
+$navbar-size: 1.50rem;
+
+
+.caja{
+    background-color: $caja-color;
+}
+
+.juegos__recomendados{
+    height: auto;
+    margin: 50px auto;
+    padding: 40px 50px;
+    border: solid $borde-color 2px;
+}
+
+.navbar{
+    font-size: $navbar-size;
+    font-family: $font;
+    background-color: $navbar-color;
+}
+
+.titulos{
+    color: $titulo-color;
+    font-size: $titulo-size;
+}
+
+.subtitulo{
+    color: $subtitulo-color;
+    font-size: $subtitulo-size;
+    font-family: $font;
+}
+
+.texto{
+    color: $texto-color;
+    font-size: $texto-size;
+}
+

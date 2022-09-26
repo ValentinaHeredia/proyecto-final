@@ -1,0 +1,22 @@
+body{
+    background-image: url(../imagenes/fondo.png);
+    background-size: 100;
+}
+
+.logo{
+    width: 70px;
+}
+
+.pie__icon--sm{
+	width: 30px;
+}
+
+.pie{
+    background-color: #130427;
+	padding:30px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: column;
+}
+
