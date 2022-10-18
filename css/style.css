@@ -44,25 +44,9 @@ body{
 	background-color: #560770;
 }
 
-/*flex juego e index*/
+/*animaciones*/
 
-/*.home{
-	display:flex
+.transition:hover{
+	background-color: #a22aca;
+	cursor: pointer;
 }
-.in-flex{
-	flex: 1;
-}
-
-.in-flex:first-child{
-	flex: 2;
-	padding: 25px;
-	margin: 20px;
-	background-color: #560770;
-}
-
-.in-flex div{
-	padding: 25px;
-	margin: 20px;
-	background-color: #560770;
-}
-
