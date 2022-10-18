@@ -20,3 +20,49 @@ body{
 	flex-direction: column;
 }
 
+/*flex laboratorio*/
+
+.home{
+	display:flex ;
+	flex-wrap: wrap;
+}
+.in-flex{
+	flex: 1;
+	min-width: 400px;
+}
+
+.in-flex:first-child{
+	flex: 2;
+	padding: 25px;
+	margin: 20px;
+	background-color: #560770;
+}
+
+.in-flex div{
+	padding: 25px;
+	margin: 20px;
+	background-color: #560770;
+}
+
+/*flex juego e index*/
+
+/*.home{
+	display:flex
+}
+.in-flex{
+	flex: 1;
+}
+
+.in-flex:first-child{
+	flex: 2;
+	padding: 25px;
+	margin: 20px;
+	background-color: #560770;
+}
+
+.in-flex div{
+	padding: 25px;
+	margin: 20px;
+	background-color: #560770;
+}
+
